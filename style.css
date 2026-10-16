@@ -1,0 +1,164 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/*navigation and logo section css*/
+#logo{
+    padding:8px;
+    justify-self: center;
+    color:white;
+}
+.section{
+    padding:8px 16px;
+    background-color: rgb(13, 29, 68);
+}
+.header{
+    display: flex;
+    justify-content:center;
+   align-items: center;
+    
+}
+.logocontainer{
+    flex:1;
+}
+
+.navitems{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    gap:4em;
+    flex:1;
+    
+}
+.navlink{
+    font-size: 22px;
+    list-style: none;
+    
+}
+.navlink a{
+    color:white;
+    text-decoration: none;
+}
+/*first section css*/
+.hero{
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    gap:5%;
+    padding:5% 10%;
+}
+.hero-heading{
+    font-size: 54px;
+    padding:16px;
+    font-weight: bold;
+}
+.hero-description{
+    font-size:24px;
+    padding:16px;
+    max-width: 80%;
+}
+.btn{
+    margin: 16px;
+    max-width: fit-content;
+    background-color: rgb(0, 115, 255);
+    color:white;
+    border-radius: 8px;
+    padding:16px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*Middle section css*/
+.heading{
+    text-align: center;
+    padding:24px 0 42px 0;
+    font-size: 42px;
+}
+.middle-section{
+    padding:24px 32px;
+    margin:0 0 70px 0;
+}
+.imgitems{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+
+}
+.memeimage{
+    width:250px;
+    height:250px;
+    border:2px solid rgb(13, 29, 68);
+    border-radius: 20px;  
+}
+.imagedes{
+    padding:8px;
+    text-align: center;
+}
+
+/*Last section css*/
+
+.last-section{
+    padding:50px 300px;
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+}
+.quote{
+    padding:50px;
+    font-size: 42px;
+}
+.quotelines{
+    color:rgb(56, 55, 55);
+    font: weight 10px !important;
+    font-style:oblique;
+}
+.quote-author{
+    padding:0 30px 0 0;
+    text-align: end;
+}
+/*cta section css*/
+
+.cta{
+    padding:90px 300px;
+    height: 300px;
+    align-self: center;
+}
+.cta-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    background-color: rgb(39, 136, 254);
+    padding:32px 48px;
+    color:white;
+    border-radius: 16px;
+}
+
+.cta-head{
+    font-size: 40px;
+    
+}
+.cta-des{
+    
+    font-size: 24px;
+}
+.btn-2{
+    border:2px solid white;
+    padding:16px;
+    font-size: 24px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+/* footer section css*/
+
+.footer{
+    background-color: rgb(31, 31, 31);
+    padding:24px;
+    text-align: center;
+}
+.cpyright{
+    color:white;
+    font-size: 20px;
+}
